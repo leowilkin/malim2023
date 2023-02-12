@@ -13,6 +13,11 @@ a {
     color: white;
 }
 
+.email {
+    text-decoration-style: dotted;
+    text-decoration-color: whitesmoke;
+}
+
 body {
     font-family: system-ui;
     font-size: 1.25rem;
@@ -58,6 +63,25 @@ section {
     inset: 0;
     transform: skewY(5deg);
 }
+.code {
+    position: relative;
+    
+}
+
+.code::after {
+    content: '';
+    background-image: 
+    linear-gradient(
+        45deg,
+        #732dd9,
+        #0080c4, 
+        #468966
+    );
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(-5deg);
+}
 
 .pavia {
     position: relative;
@@ -76,7 +100,7 @@ section {
     position: absolute;
     z-index: -1;
     inset: 0;
-    transform: skewY(-5deg);
+    transform: skewY(5deg);
 }
 .stampace {
     position: relative;
@@ -95,7 +119,7 @@ section {
     position: absolute;
     z-index: -1;
     inset: 0;
-    transform: skewY(5deg);
+    transform: skewY(-5deg);
 }
 .deborah {
     position: relative;
@@ -114,7 +138,7 @@ section {
     position: absolute;
     z-index: -1;
     inset: 0;
-    transform: skewY(-5deg);
+    transform: skewY(5deg);
 }
 
 img {
@@ -151,11 +175,63 @@ img {
     position: absolute;
     z-index: -1;
     inset: 0;
-    transform: skewY(5deg);
+    transform: skewY(-5deg);
 }
 
 .panoanno {
     background-color: black;
-    border-radius: 6%;
+    border-radius: 1.5%;
     padding: 20px;
+}
+
+.panoannotext {
+    font-size: 1rem;
+    text-align: centre;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shadow {
+    position: relative;
+    
+}
+
+.shadow::after {
+    content: '';
+    background-image: 
+    linear-gradient(
+        45deg,
+        #64595f,
+        #434047, 
+        #8c8583
+    );
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(5deg);
+}
+.paths {
+    position: relative;
+    
+}
+
+.paths::after {
+    content: '';
+    background-image: 
+    linear-gradient(
+        45deg,
+        #839fa7,
+        #575464, 
+        #76765e
+    );
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(-5deg);
+}
+
+.youtube {
+    text-align: center;
+    margin-inline: auto;
+    align-items: center;
 }
