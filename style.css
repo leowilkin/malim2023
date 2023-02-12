@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html{
+    color-scheme: dark light;
+}
+
+a {
+    text-decoration-color: #0080c4;
+    color: white;
+}
+
+body {
+    font-family: system-ui;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+.site-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.25rem;
+}
+
+section {
+    padding-block: 5rem;
+}
+.intro {
+    position: relative;
+    
+}
+
+.intro::after {
+    content: '';
+    background-image: 
+    linear-gradient(
+        45deg,
+        #732dd9,
+        #0080c4, 
+        #468966
+    );
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(5deg);
+}
+
+.pavia {
+    position: relative;
+    
+}
+
+.pavia::after {
+    content: '';
+    background-image: 
+    linear-gradient(
+        -45deg,
+        #d3c687,
+        #5e532b, 
+        #835427
+    );
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(-5deg);
+}
+.stampace {
+    position: relative;
+    
+}
+
+.stampace::after {
+    content: '';
+    background-image: 
+    linear-gradient(
+        40deg,
+        #657c9c,
+        #dfb088, 
+        #896155
+    );
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(5deg);
+}
+.deborah {
+    position: relative;
+    
+}
+
+.deborah::after {
+    content: '';
+    background-image: 
+    linear-gradient(
+        45deg,
+        #966843,
+        #575019, 
+        #b6aa92
+    );
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(-5deg);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welly {
+    background-image: 
+    linear-gradient(
+        45deg,
+        #ea7228,
+        #f2b62a, 
+        #b9d6bb
+    );
+    border-radius: 15%;
+}
+
+.panorama {
+    position: relative;
+    
+}
+
+.panorama::after {
+    content: '';
+    background-image: 
+    linear-gradient(
+        40deg,
+        #cab497,
+        #8b6e3c, 
+        #312615
+    );
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(5deg);
+}
+
+.panoanno {
+    background-color: black;
+    border-radius: 6%;
+    padding: 20px;
+}
