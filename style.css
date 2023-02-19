@@ -6,6 +6,7 @@
 
 html{
     color-scheme: dark light;
+    background-color: black;
 }
 
 a {
@@ -24,6 +25,8 @@ body {
     line-height: 1.5;
     margin: 0;
     overflow-x: hidden;
+    color: white;
+    text-color: white;
 }
 
 .wrapper {
